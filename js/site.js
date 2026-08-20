@@ -82,18 +82,31 @@
     if (!details) return;
     const lines = [];
     lines.push("<p><strong>" + t(lang, "city_label") + ":</strong> " + SITE.city + "</p>");
-    if (SITE.address) lines.push("<p><strong>Adresse:</strong> " + SITE.address + "</p>");
+    if (SITE.address) {
+      lines.push("<p><strong>" + t(lang, "label_address") + ":</strong> " + SITE.address + "</p>");
+      if (SITE.mapUrl) {
+        lines.push('<p><a href="' + SITE.mapUrl + '" rel="noopener" target="_blank">' + t(lang, "label_map") + "</a></p>");
+      }
+    }
     if (SITE.phone) {
-      lines.push('<p><strong>Tél. :</strong> <a href="tel:' + SITE.phone.replace(/\s/g, "") + '">' + SITE.phone + "</a></p>");
+      lines.push('<p><strong>' + t(lang, "label_phone") + ' :</strong> <a href="tel:' + SITE.phone.replace(/\s/g, "") + '">' + SITE.phone + "</a></p>");
     }
     if (SITE.email) {
-      lines.push('<p><strong>E-mail :</strong> <a href="mailto:' + SITE.email + '">' + SITE.email + "</a></p>");
+      lines.push('<p><strong>' + t(lang, "label_email") + ' :</strong> <a href="mailto:' + SITE.email + '">' + SITE.email + "</a></p>");
     }
     if (SITE.facebook) {
       lines.push('<p><a href="' + SITE.facebook + '" rel="noopener" target="_blank">Facebook</a></p>');
     }
     if (SITE.telegram) {
       lines.push('<p><a href="' + SITE.telegram + '" rel="noopener" target="_blank">Telegram</a></p>');
+    }
+    if (SITE.leader && SITE.leader.name && SITE.leader.name[lang]) {
+      lines.push(
+        '<p class="leader"><strong>' + SITE.leader.role[lang] + ":</strong><br>" +
+        SITE.leader.name[lang] +
+        (SITE.leader.phone ? '<br><a href="tel:' + SITE.leader.phone.replace(/\s/g, "") + '">' + SITE.leader.phone + "</a>" : "") +
+        "</p>"
+      );
     }
     if (!SITE.address && !SITE.phone && !SITE.email) {
       lines.push('<p class="notice">' + t(lang, "contact_pending") + "</p>");
@@ -103,7 +116,7 @@
     const map = document.getElementById("map-frame");
     if (map) {
       const q = encodeURIComponent(SITE.address || SITE.mapQuery || SITE.city);
-      map.src = "https://maps.google.com/maps?q=" + q + "&z=12&output=embed";
+      map.src = "https://maps.google.com/maps?q=" + q + "&z=16&output=embed";
     }
   }
 

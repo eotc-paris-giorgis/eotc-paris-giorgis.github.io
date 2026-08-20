@@ -24,12 +24,28 @@ window.SITE = {
 
   /* Laissez vide ("") si l'information n'est pas encore prête.
      Le site affichera un message d'attente au lieu d'une fausse adresse. */
-  address: "",
+  address: "74 Ter Rue du Mont-Cenis, 75018 Paris",
+  mapUrl: "https://maps.app.goo.gl/nDL6nChAq34c47tP7",
   phone: "",
   email: "",
   facebook: "",
   telegram: "",
-  mapQuery: "Ethiopian Orthodox Church Paris",
+  mapQuery: "74 Ter Rue du Mont-Cenis, 75018 Paris",
+
+  /* Administrateur de la paroisse / የደብር አስተዳዳሪ */
+  leader: {
+    role: {
+      fr: "Administrateur de la paroisse",
+      am: "የደብር አስተዳዳሪ",
+      en: "Parish Administrator"
+    },
+    name: {
+      fr: "Mele'ake Tsion Abba Woldetensae Chanie (Qomos)",
+      am: "መልአከ ጽዮን አባ ወልደ ትንሣኤ ጫኔ (ቆሞስ)",
+      en: "Mele'ake Tsion Abba Woldetensae Chanie (Qomos)"
+    },
+    phone: "+33 6 10 31 87 52"
+  },
 
   hours: [
     {
@@ -121,7 +137,7 @@ window.I18N = {
     hours_title: "Horaires des offices",
     hours_kicker: "Venez et voyez",
     hours_intro: "Les heures peuvent varier selon les fêtes et le local utilisé. En cas de doute, contactez la paroisse avant de vous déplacer.",
-    hours_note: "Ce premier site publie le rythme habituel. Dès que la paroisse confirme l'adresse exacte et l'heure du Kidase, elles apparaîtront ici.",
+    hours_note: "Ce premier site publie le rythme habituel. Dès que la paroisse confirme l'heure exacte du Kidase, elle apparaîtra ici.",
     news_am: "ዜናዎች",
     news_title: "Actualités de la paroisse",
     news_kicker: "Annonces et mises à jour",
@@ -131,6 +147,10 @@ window.I18N = {
     contact_kicker: "La porte de l'église est ouverte",
     contact_intro: "Pour un baptême, un mariage, un service funèbre, une visite ou une question, écrivez-nous.",
     contact_pending: "L'adresse exacte, le téléphone et l'e-mail seront publiés par la paroisse. En attendant, le moyen le plus sûr est de rejoindre la communauté le dimanche matin.",
+    label_address: "Adresse",
+    label_phone: "Tél.",
+    label_email: "E-mail",
+    label_map: "Voir sur Google Maps",
     label_name: "Nom",
     label_email: "E-mail",
     label_message: "Message",
@@ -176,7 +196,7 @@ window.I18N = {
     hours_title: "ቅዳሴና አገልግሎት",
     hours_kicker: "ንዑ ወርእዩ",
     hours_intro: "ሰዓታት እንደ በዓልና እንደ ሥፍራ ሊለወጡ ይችላሉ። ከመምጣትዎ በፊት ያረጋግጡ።",
-    hours_note: "ትክክለኛው አድራሻና የቅዳሴ ሰዓት በሰበካው ሲረጋገጥ እዚህ ይታተማል።",
+    hours_note: "ትክክለኛው የቅዳሴ ሰዓት በሰበካው ሲረጋገጥ እዚህ ይታተማል።",
     news_am: "ዜናዎች",
     news_title: "የሰበካው ዜና",
     news_kicker: "ማስታወቂያዎች",
@@ -186,6 +206,10 @@ window.I18N = {
     contact_kicker: "የቤተ ክርስቲያን በር ክፍት ነው",
     contact_intro: "ለጥምቀት፣ ለጋብቻ፣ ለቀብር ወይም ለጥያቄ ይጻፉልን።",
     contact_pending: "ትክክለኛው አድራሻ፣ ስልክና ኢሜይል በሰበካው ይታተማሉ። እስከዚያው ድረስ እሑድ ጠዋት መገኘት ይመከራል።",
+    label_address: "አድራሻ",
+    label_phone: "ስልክ",
+    label_email: "ኢሜይል",
+    label_map: "በጉግል ካርታ ይመልከቱ",
     label_name: "ስም",
     label_email: "ኢሜይል",
     label_message: "መልእክት",
@@ -231,7 +255,7 @@ window.I18N = {
     hours_title: "Service times",
     hours_kicker: "Come and see",
     hours_intro: "Times may change with feast days and the place of worship. If in doubt, contact the parish before travelling.",
-    hours_note: "This first version of the site shows the usual rhythm. When the parish confirms the exact address and Kidase time, they will appear here.",
+    hours_note: "This first version of the site shows the usual rhythm. When the parish confirms the exact Kidase time, it will appear here.",
     news_am: "ዜናዎች",
     news_title: "Parish news",
     news_kicker: "Notices and updates",
@@ -241,6 +265,10 @@ window.I18N = {
     contact_kicker: "The church door is open",
     contact_intro: "For a baptism, wedding, funeral, visit or question, write to us.",
     contact_pending: "The exact address, phone and email will be published by the parish. Until then, the surest way is to join the community on Sunday morning.",
+    label_address: "Address",
+    label_phone: "Phone",
+    label_email: "Email",
+    label_map: "View on Google Maps",
     label_name: "Name",
     label_email: "Email",
     label_message: "Message",
