@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="200" y2="280">
+      <stop offset="0%" stop-color="#F3E2A0"/>
+      <stop offset="45%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#8A6A1E"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#gold)" stroke-width="3.2" stroke-linejoin="miter">
+    <rect x="78" y="8" width="44" height="44"/>
+    <rect x="86" y="16" width="28" height="28"/>
+    <rect x="94" y="24" width="12" height="12"/>
+    <rect x="18" y="78" width="44" height="44"/>
+    <rect x="26" y="86" width="28" height="28"/>
+    <rect x="34" y="94" width="12" height="12"/>
+    <rect x="78" y="78" width="44" height="44"/>
+    <rect x="86" y="86" width="28" height="28"/>
+    <rect x="94" y="94" width="12" height="12"/>
+    <rect x="138" y="78" width="44" height="44"/>
+    <rect x="146" y="86" width="28" height="28"/>
+    <rect x="154" y="94" width="12" height="12"/>
+    <rect x="78" y="148" width="44" height="44"/>
+    <rect x="86" y="156" width="28" height="28"/>
+    <rect x="94" y="164" width="12" height="12"/>
+    <path d="M100 52V78M62 100H78M122 100H138M100 122V148"/>
+    <rect x="90" y="192" width="20" height="72"/>
+    <rect x="94" y="196" width="12" height="64"/>
+    <line x1="90" y1="212" x2="110" y2="212"/>
+    <line x1="90" y1="228" x2="110" y2="228"/>
+    <line x1="90" y1="244" x2="110" y2="244"/>
+  </g>
+</svg>

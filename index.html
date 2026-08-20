@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paroisse Debre Giorgis · Paris</title>
+  <meta name="description" content="Paroisse Debre Giorgis, Église orthodoxe éthiopienne Tewahedo à Paris. Offices, fêtes et actualités de la communauté Saint Georges.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Noto+Serif+Ethiopic:wght@400;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/ethiopian-cross.svg" alt="">
+        <span class="brand-text">
+          <span class="brand-am">ደብረ ጊዮርጊስ</span>
+          <span class="brand-fr">Debre Giorgis · Paris</span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" data-i18n="menu">Menu</button>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html" data-page="home" data-i18n="nav_home">Accueil</a>
+        <a href="paroisse.html" data-page="parish" data-i18n="nav_parish">La paroisse</a>
+        <a href="offices.html" data-page="hours" data-i18n="nav_hours">Offices</a>
+        <a href="actualites.html" data-page="news" data-i18n="nav_news">Actualités</a>
+        <a href="contact.html" data-page="contact" data-i18n="nav_contact">Contact</a>
+        <div class="lang" role="group" aria-label="Langue">
+          <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+          <button type="button" data-lang="am" aria-pressed="false">አማ</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <img class="hero-cross" src="assets/ethiopian-cross.svg" alt="">
+        <p class="kicker" data-i18n="kicker">Église orthodoxe éthiopienne Tewahedo · Paris</p>
+        <h1>ደብረ ጊዮርጊስ</h1>
+        <p class="subtitle">Paroisse Saint Georges</p>
+        <img class="ornament" src="assets/ornament.svg" alt="">
+        <p class="lead" data-i18n="hero_lead"></p>
+        <div class="actions">
+          <a class="btn" href="offices.html" data-i18n="cta_hours">Horaires des offices</a>
+          <a class="btn btn-ghost" href="contact.html" data-i18n="cta_contact">Nous trouver</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-parchment">
+      <div class="wrap">
+        <p class="am-title" data-i18n="welcome_am">እንኳን ደህና መጡ</p>
+        <h2 data-i18n="welcome_title">Paix à cette maison</h2>
+        <p class="section-intro" data-i18n="welcome_text"></p>
+        <div class="grid-3">
+          <article class="card">
+            <img class="icon-cross" src="assets/ethiopian-cross.svg" alt="">
+            <h3 data-i18n="card1_title">Offices</h3>
+            <p data-i18n="card1_text"></p>
+            <a href="offices.html" data-i18n="cta_hours">Horaires des offices</a>
+          </article>
+          <article class="card">
+            <img class="icon-cross" src="assets/ethiopian-cross.svg" alt="">
+            <h3 data-i18n="card2_title">Actualités</h3>
+            <p data-i18n="card2_text"></p>
+            <a href="actualites.html" data-i18n="nav_news">Actualités</a>
+          </article>
+          <article class="card">
+            <img class="icon-cross" src="assets/ethiopian-cross.svg" alt="">
+            <h3 data-i18n="card3_title">Contact</h3>
+            <p data-i18n="card3_text"></p>
+            <a href="contact.html" data-i18n="nav_contact">Contact</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <p class="am-title" data-i18n="feasts_am"></p>
+        <h2 data-i18n="feasts_title">Grandes fêtes</h2>
+        <p class="section-intro" data-i18n="feasts_intro"></p>
+        <div class="feast-list" id="feast-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <img class="ornament" src="assets/ornament.svg" alt="">
+      <p class="am" data-i18n="footer_blessing">Gloire à Dieu</p>
+      <p data-i18n="footer_copy"></p>
+      <small>በስመ አብ ወወልድ ወመንፈስ ቅዱስ አሐዱ አምላክ አሜን</small>
+    </div>
+  </footer>
+  <script src="js/content.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>
