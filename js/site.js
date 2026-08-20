@@ -153,7 +153,7 @@
         alert(t(currentLang(), "form_hint"));
         return;
       }
-      const subject = encodeURIComponent("Message paroisse Debre Giorgis — " + name);
+      const subject = encodeURIComponent("Message Debre Genet Giorgis — " + name);
       const body = encodeURIComponent(message + "\n\n" + name + " <" + email + ">");
       window.location.href = "mailto:" + SITE.email + "?subject=" + subject + "&body=" + body;
     });

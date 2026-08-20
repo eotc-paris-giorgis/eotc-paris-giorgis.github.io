@@ -1,14 +1,19 @@
 /* ============================================================
-   PAROISSE DEBRE GIORGIS — contenu éditable
+   DEBRE GENET SAINT GIORGIS ET QOUSQOUAM MARIE — contenu éditable
    Modifiez ce fichier pour mettre à jour le site.
    Puis envoyez le fichier sur GitHub (voir README.md).
    ============================================================ */
 
 window.SITE = {
   name: {
-    fr: "Paroisse Debre Giorgis",
-    am: "ደብረ ጊዮርጊስ",
-    en: "Debre Giorgis Parish"
+    fr: "Debre Genet Giorgis",
+    am: "ደብረ ገነት ጊዮርጊስ",
+    en: "Debre Genet Giorgis"
+  },
+  fullName: {
+    fr: "Église Debre Genet Saint Georges et Qousqouam Marie",
+    am: "ፓሪስ ደብረ ገነት ቅዱስ ጊዮርጊስ ወቁስቋም ማርያም ቤተ ክርስቲያን",
+    en: "Debre Genet Saint Giorgis and Qusquam Mariam Church"
   },
   saint: {
     fr: "Saint Georges",
@@ -72,9 +77,9 @@ window.SITE = {
         en: "The parish website is now online"
       },
       body: {
-        fr: "Bienvenue sur le site de la paroisse Debre Giorgis à Paris. Vous y trouverez les offices, les fêtes et les annonces de la communauté. Les horaires précis et l'adresse seront complétés par la paroisse.",
-        am: "እንኳን ወደ የፓሪስ ደብረ ጊዮርጊስ ሰበካ ድረ-ገጽ በደህና መጡ። የአገልግሎት ሰዓታት፣ በዓላት እና ማስታወቂያዎች እዚህ ይቀመጣሉ።",
-        en: "Welcome to the Debre Giorgis parish website in Paris. Service times, feasts and community notices will be published here. Exact hours and the address will be completed by the parish."
+        fr: "Bienvenue sur le site de l'église Debre Genet Saint Georges et Qousqouam Marie à Paris. Vous y trouverez les offices, les fêtes et les annonces de la communauté. Les horaires précis et l'adresse seront complétés par la paroisse.",
+        am: "እንኳን ወደ ፓሪስ ደብረ ገነት ቅዱስ ጊዮርጊስ ወቁስቋም ማርያም ቤተ ክርስቲያን ድረ-ገጽ በደህና መጡ። የአገልግሎት ሰዓታት፣ በዓላት እና ማስታወቂያዎች እዚህ ይቀመጣሉ።",
+        en: "Welcome to the Debre Genet Saint Giorgis and Qusquam Mariam Church website in Paris. Service times, feasts and community notices will be published here. Exact hours and the address will be completed by the parish."
       }
     }
   ]
@@ -94,7 +99,7 @@ window.I18N = {
     cta_contact: "Nous trouver",
     welcome_am: "እንኳን ደህና መጡ",
     welcome_title: "Paix à cette maison",
-    welcome_text: "La paroisse Debre Giorgis, dédiée à Saint Georges, rassemble les fidèles de l'Église orthodoxe éthiopienne Tewahedo à Paris. Ici, la Divine Liturgie est célébrée, les fêtes du calendrier éthiopien sont honorées, et la communauté se soutient dans la prière.",
+    welcome_text: "L'église Debre Genet Saint Georges et Qousqouam Marie, dédiée à Saint Georges et à la Vierge Marie de Qousqouam, rassemble les fidèles de l'Église orthodoxe éthiopienne Tewahedo à Paris. Ici, la Divine Liturgie est célébrée, les fêtes du calendrier éthiopien sont honorées, et la communauté se soutient dans la prière.",
     card1_title: "Offices",
     card1_text: "Kidase dominical, fêtes et sacrements. Venez prier avec nous.",
     card2_title: "Actualités",
@@ -105,9 +110,9 @@ window.I18N = {
     feasts_title: "Grandes fêtes",
     feasts_intro: "Le calendrier éthiopien jalonne l'année liturgique. Les dates civiles ci-dessous sont les plus habituelles.",
     parish_am: "ስለ ሰበካው",
-    parish_title: "La paroisse Debre Giorgis",
+    parish_title: "Debre Genet Saint Georges et Qousqouam Marie",
     parish_kicker: "Saint Georges, notre protecteur",
-    parish_p1: "Debre Giorgis signifie « le mont de Saint Georges ». Saint Georges le Martyr est l'un des saints les plus aimés de l'Église éthiopienne. Sa figure — le cavalier qui vainc le dragon — rappelle la victoire du Christ sur le mal.",
+    parish_p1: "Debre Genet signifie « le mont du Paradis ». Notre église est dédiée à Saint Georges le Martyr et à la Vierge Marie de Qousqouam. Saint Georges est l'un des saints les plus aimés de l'Église éthiopienne : sa figure — le cavalier qui vainc le dragon — rappelle la victoire du Christ sur le mal.",
     parish_p2: "Notre paroisse appartient à l'Église orthodoxe éthiopienne Tewahedo. Tewahedo signifie « unité » : nous confessons le Christ, vrai Dieu et vrai homme, en une seule union. La liturgie se célèbre principalement en guèze, avec des lectures et une prédication en amharique ; le français est aussi le plus souvent compris dans la communauté de Paris.",
     parish_p3: "Tous les visiteurs sont les bienvenus. Une tenue modeste est demandée. Les femmes couvrent souvent la tête d'un netela ou d'un foulard. On se déchausse en entrant dans l'espace sacré, selon la coutume.",
     faith_title: "Ce que nous croyons",
@@ -134,7 +139,7 @@ window.I18N = {
     where_title: "Où nous trouver",
     city_label: "Ville",
     footer_blessing: "Gloire à Dieu",
-    footer_copy: "Paroisse Debre Giorgis · Église orthodoxe éthiopienne Tewahedo · Paris"
+    footer_copy: "Debre Genet Saint Georges et Qousqouam Marie · Église orthodoxe éthiopienne Tewahedo · Paris"
   },
   am: {
     nav_home: "መነሻ",
@@ -144,12 +149,12 @@ window.I18N = {
     nav_contact: "ያግኙን",
     menu: "ምናሌ",
     kicker: "የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን · ፓሪስ",
-    hero_lead: "በፓሪስ የምትገኘው የደብረ ጊዮርጊስ ሰበካ ለምእመናን የጸሎት፣ የቅዳሴ እና የኅብረት ቤት ናት።",
+    hero_lead: "በፓሪስ የምትገኘው ደብረ ገነት ቅዱስ ጊዮርጊስ ወቁስቋም ማርያም ቤተ ክርስቲያን ለምእመናን የጸሎት፣ የቅዳሴ እና የኅብረት ቤት ናት።",
     cta_hours: "የአገልግሎት ሰዓታት",
     cta_contact: "አድራሻ",
     welcome_am: "እንኳን ደህና መጡ",
     welcome_title: "ሰላም ለዚህች ቤት",
-    welcome_text: "ደብረ ጊዮርጊስ በቅዱስ ጊዮርጊስ ስም የተሰየመች ሰበካ ስትሆን በፓሪስ የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ምእመናንን ትሰበስባለች። ቅዳሴ ይቀደሳል፣ የበዓላት ቀናት ይከበራሉ፣ ማኅበረ ምእመናንም በጸሎት ይደጋገፋሉ።",
+    welcome_text: "ደብረ ገነት ቅዱስ ጊዮርጊስ ወቁስቋም ማርያም ቤተ ክርስቲያን በቅዱስ ጊዮርጊስ እና በቅድስት ድንግል ማርያም ስም የተሰየመች ስትሆን በፓሪስ የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ምእመናንን ትሰበስባለች። ቅዳሴ ይቀደሳል፣ የበዓላት ቀናት ይከበራሉ፣ ማኅበረ ምእመናንም በጸሎት ይደጋገፋሉ።",
     card1_title: "ቅዳሴ",
     card1_text: "የእሑድ ቅዳሴ፣ በዓላት እና ሥርዓተ ቤተ ክርስቲያን።",
     card2_title: "ዜናዎች",
@@ -160,9 +165,9 @@ window.I18N = {
     feasts_title: "ታላላቅ በዓላት",
     feasts_intro: "የኢትዮጵያ ዘመን አቆጣጠር የቤተ ክርስቲያን ዓመትን ይመራል።",
     parish_am: "ስለ ሰበካው",
-    parish_title: "ደብረ ጊዮርጊስ",
+    parish_title: "ደብረ ገነት ቅዱስ ጊዮርጊስ ወቁስቋም ማርያም",
     parish_kicker: "ቅዱስ ጊዮርጊስ ደጃችን",
-    parish_p1: "ደብረ ጊዮርጊስ ማለት «የቅዱስ ጊዮርጊስ ተራራ» ማለት ነው። ቅዱስ ጊዮርጊስ በኢትዮጵያ ቤተ ክርስቲያን ከሚወደዱ ቅዱሳን አንዱ ነው።",
+    parish_p1: "ደብረ ገነት ማለት «የገነት ተራራ» ማለት ነው። ቤተ ክርስቲያናችን በቅዱስ ጊዮርጊስ እና በቁስቋም ማርያም ስም ተሰይማለች። ቅዱስ ጊዮርጊስ በኢትዮጵያ ቤተ ክርስቲያን ከሚወደዱ ቅዱሳን አንዱ ነው።",
     parish_p2: "ሰበካችን የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን አካል ናት። ቅዳሴ በዋናነት በግዕዝ ይቀደሳል፤ ንባብና ስብከት በአማርኛ ይሆናሉ። በፓሪስ ፈረንሳይኛም ይገባል።",
     parish_p3: "እንግዶች በደስታ ይቀበላሉ። የተግባር ልብስ ይጠበቃል። ሴቶች ብዙ ጊዜ ነጠላ ወይም ሻሽ ይጎናጸፋሉ። ወደ መቅደስ ሲገቡ ጫማ መውለቅ የተለመደ ነው።",
     faith_title: "እምነታችን",
@@ -189,7 +194,7 @@ window.I18N = {
     where_title: "የት እናገኛለን",
     city_label: "ከተማ",
     footer_blessing: "ክብር ለእግዚአብሔር",
-    footer_copy: "ደብረ ጊዮርጊስ · የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ · ፓሪስ"
+    footer_copy: "ደብረ ገነት ቅዱስ ጊዮርጊስ ወቁስቋም ማርያም · የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ · ፓሪስ"
   },
   en: {
     nav_home: "Home",
@@ -204,7 +209,7 @@ window.I18N = {
     cta_contact: "Find us",
     welcome_am: "እንኳን ደህና መጡ",
     welcome_title: "Peace to this house",
-    welcome_text: "Debre Giorgis parish, dedicated to Saint George, gathers the faithful of the Ethiopian Orthodox Tewahedo Church in Paris. The Divine Liturgy is celebrated here, the feasts of the Ethiopian calendar are kept, and the community supports one another in prayer.",
+    welcome_text: "Debre Genet Saint Giorgis and Qusquam Mariam Church, dedicated to Saint George and the Virgin Mary of Qusquam, gathers the faithful of the Ethiopian Orthodox Tewahedo Church in Paris. The Divine Liturgy is celebrated here, the feasts of the Ethiopian calendar are kept, and the community supports one another in prayer.",
     card1_title: "Services",
     card1_text: "Sunday Kidase, feast days and sacraments. Come and pray with us.",
     card2_title: "News",
@@ -215,9 +220,9 @@ window.I18N = {
     feasts_title: "Great feasts",
     feasts_intro: "The Ethiopian calendar shapes the liturgical year. Civil dates below are the usual ones.",
     parish_am: "ስለ ሰበካው",
-    parish_title: "Debre Giorgis parish",
+    parish_title: "Debre Genet Saint Giorgis and Qusquam Mariam",
     parish_kicker: "Saint George, our protector",
-    parish_p1: "Debre Giorgis means “the mount of Saint George”. Saint George the Martyr is among the most beloved saints of the Ethiopian Church. The horseman who overcomes the dragon is an image of Christ’s victory over evil.",
+    parish_p1: "Debre Genet means “the mount of Paradise”. Our church is dedicated to Saint George the Martyr and the Virgin Mary of Qusquam. Saint George is among the most beloved saints of the Ethiopian Church: the horseman who overcomes the dragon is an image of Christ’s victory over evil.",
     parish_p2: "Our parish belongs to the Ethiopian Orthodox Tewahedo Church. Tewahedo means “unity”: we confess Christ, true God and true man, in one union. The liturgy is mainly in Ge’ez, with readings and preaching in Amharic; French is also widely understood in the Paris community.",
     parish_p3: "Visitors are welcome. Modest dress is expected. Women often cover their hair with a netela or scarf. It is customary to remove shoes when entering the sacred space.",
     faith_title: "What we believe",
@@ -244,6 +249,6 @@ window.I18N = {
     where_title: "Where to find us",
     city_label: "City",
     footer_blessing: "Glory to God",
-    footer_copy: "Debre Giorgis Parish · Ethiopian Orthodox Tewahedo Church · Paris"
+    footer_copy: "Debre Genet Saint Giorgis and Qusquam Mariam Church · Ethiopian Orthodox Tewahedo Church · Paris"
   }
 };
